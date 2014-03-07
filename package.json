@@ -1,0 +1,32 @@
+{
+  "name": "Colide",
+  "version": "0.0.0",
+  "description": "A way to colide everybody.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ColideInc/Colide.git"
+  },
+  "keywords": [
+    "colide",
+    "connect",
+    "events",
+    "share"
+  ],
+  "author": "felipe lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColideInc/Colide/issues"
+  },
+  "homepage": "https://github.com/ColideInc/Colide",
+  "dependencies": {
+    "logfmt": "^0.21.0",
+    "express": "^3.5.0"
+  }
+  "engines":{
+	"node": "0.10.x"
+  }
+}
