@@ -10,6 +10,10 @@ app.get( '/' , function( req, res){
 	res.send("Hello world.");
 });
 
+app.get( '/:id' , function( req, res){
+	res.send("Valor do parametro: " + req.params.id);
+});
+
 var port = Number( process.env.PORT || 5000);
 app.listen( port, function(){
 	console.log("Listening on " + port );
